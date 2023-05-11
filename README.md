@@ -145,5 +145,5 @@ Be the first one to guess 🐇 <!-- Hint: do research about rc files history -->
 [license-href]: https://github.com/nyxblabs/configorium/blob/main/LICENSE
 
 <!-- Cover -->
-[cover-src]: https://raw.githubusercontent.com/nyxblabs/configorium/main/.github/assets/configorium.png
+[cover-src]: https://raw.githubusercontent.com/nyxblabs/configorium/main/.github/cover-github-configorium.png
 [cover-href]: https://💻nyxb.ws
