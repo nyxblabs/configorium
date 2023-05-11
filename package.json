@@ -1,0 +1,48 @@
+{
+  "name": "configorium",
+  "version": "0.0.1",
+  "description": "📦✍️ Effortlessly manage configs with nyxdefaults! Simplify your config read/write process. Get started now!",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxblabs/configorium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxblabs/configorium/issues"
+  },
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Happy hacking\" && 💙"
+  },
+  "dependencies": {
+    "nyxdefaults": "^0.0.3",
+    "nyxjson": "^0.0.3",
+    "flat": "^5.0.2"
+  },
+  "devDependencies": {
+    "@nyxb/eslint-config": "^0.0.53",
+    "@nyxb/nyxi": "^0.0.28",
+    "@types/flat": "^5.0.2",
+    "@types/node": "^18.16.3",
+    "@vitest/coverage-c8": "^0.31.0",
+    "eslint": "^8.40.0",
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1",
+    "vitest": "^0.31.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": []
+}
