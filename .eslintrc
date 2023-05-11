@@ -1,6 +1,13 @@
 {
-  "extends": ["eslint-config-unjs"],
+  "extends": [
+    "@nyxb"
+  ],
   "rules": {
-    "@typescript-eslint/no-non-null-assertion": 0
+    "@next/next/no-html-link-for-pages": 0
+  },
+  "settings": {
+    "react": {
+      "version": "16.0"
+    }
   }
 }
