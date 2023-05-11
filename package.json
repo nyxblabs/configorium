@@ -1,6 +1,6 @@
 {
   "name": "configorium",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "📦✍️ Effortlessly manage configs with nyxdefaults! Simplify your config read/write process. Get started now!",
   "author": "Dennis Ollhoff <contact@nyxb.xyz",
   "license": "MIT",

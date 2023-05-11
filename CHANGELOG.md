@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/nyxblabs/configorium/compare/v0.0.2...v0.0.3)
+
+
+### 🏡 Chore
+
+  - **.eslintignore): add README.md to ignored files 🎨 style(README.md:** Format README.md file The first change is a simple addition to the .eslintignore file to ignore the README.md file. The second change is a formatting change to the README.md file to improve readability. ([8b4106b](https://github.com/nyxblabs/configorium/commit/8b4106b))
+
+### 🎨 Styles
+
+  - **README.md:** Update cover image and fix typo The cover image was updated to a more appropriate one. A typo in the URL was also fixed. ([5aeb43e](https://github.com/nyxblabs/configorium/commit/5aeb43e))
+
+### ❤️  Contributors
+
+- Nyxb <contact@nyxb.xyz>
+
 ## v0.0.2
 
 
