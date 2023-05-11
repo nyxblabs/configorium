@@ -23,7 +23,12 @@
     }
   },
   "scripts": {
-    "test": "echo \"Happy hacking\" && 💙"
+    "prepack": "nyxr build",
+    "build": "unbuild",
+    "dev": "vitest",
+    "lint": "eslint --ext .ts .",
+    "release": "nyxr test && changelogen --release --push && pnpm publish",
+    "test": "nyxr lint && vitest run --coverage"
   },
   "dependencies": {
     "nyxdefaults": "^0.0.3",
