@@ -27,7 +27,7 @@
     "build": "unbuild",
     "dev": "vitest",
     "lint": "eslint --ext .ts .",
-    "release": "nyxr test && changelogen --release --push && pnpm publish",
+    "release": "nyxr test && nyxlx changelogen --release --push && pnpm publish",
     "test": "nyxr lint && vitest run --coverage"
   },
   "dependencies": {
